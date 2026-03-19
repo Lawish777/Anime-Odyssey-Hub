@@ -4,7 +4,7 @@ import requests
 import time
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
-# import speech_recognition as sr
+import speech_recognition as sr
 import logging
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
